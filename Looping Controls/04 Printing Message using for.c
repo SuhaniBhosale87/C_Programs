@@ -1,0 +1,28 @@
+
+#include<stdio.h>
+#include<conio.h>
+
+int main()
+{
+    int Cnt = 0 ,Num = 1;
+
+
+    printf("\n Enter Count = ");
+    scanf("%d",&Cnt);
+
+    printf("\n***************************************");
+
+
+    while(Cnt > 0)
+    {
+            printf( "\n %3d INDIA",Num);
+            Cnt--;
+            Num++;
+    }
+
+    printf("\n***************************************");
+    printf("\n\n Thanks !!!");
+
+    getch();
+    return 0;
+}
